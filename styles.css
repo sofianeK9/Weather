@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 800%;
+    animation: gradient 30s ease infinite;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 4px;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(77, 88, 200);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0580b5;
+}
+
+#weatherInfos {
+    text-align: center;
+    margin-top: 20px;
+}
